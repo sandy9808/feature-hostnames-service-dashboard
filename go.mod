@@ -46,6 +46,7 @@ require (
 	github.com/oklog/run v1.1.0
 	github.com/oklog/ulid/v2 v2.1.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor v0.125.0
+	github.com/openfga/go-sdk v0.7.1
 	github.com/ovh/go-ovh v1.7.0
 	github.com/prometheus/alertmanager v0.28.1
 	github.com/prometheus/client_golang v1.22.0
@@ -77,7 +78,7 @@ require (
 	go.uber.org/goleak v1.3.0
 	go.uber.org/multierr v1.11.0
 	golang.org/x/oauth2 v0.29.0
-	golang.org/x/sync v0.13.0
+	golang.org/x/sync v0.15.0
 	golang.org/x/sys v0.32.0
 	golang.org/x/text v0.24.0
 	google.golang.org/api v0.231.0
