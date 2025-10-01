@@ -16,7 +16,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0
 	github.com/dennwc/varint v1.0.0
 	github.com/digitalocean/godo v1.145.0
-	github.com/docker/docker v28.1.1+incompatible
+	github.com/docker/docker v28.4.0+incompatible
 	github.com/edsrzf/mmap-go v1.2.0
 	github.com/envoyproxy/go-control-plane/envoy v1.32.4
 	github.com/envoyproxy/protoc-gen-validate v1.2.1
@@ -46,6 +46,7 @@ require (
 	github.com/oklog/run v1.1.0
 	github.com/oklog/ulid/v2 v2.1.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor v0.125.0
+	github.com/openfga/go-sdk v0.7.1
 	github.com/ovh/go-ovh v1.7.0
 	github.com/prometheus/alertmanager v0.28.1
 	github.com/prometheus/client_golang v1.22.0
@@ -94,6 +95,8 @@ require (
 )
 
 require (
+	github.com/containerd/errdefs v1.0.0 // indirect
+	github.com/containerd/errdefs/pkg v0.3.0 // indirect
 	github.com/hashicorp/go-version v1.7.0 // indirect
 	github.com/moby/sys/atomicwriter v0.1.0 // indirect
 	github.com/puzpuzpuz/xsync/v3 v3.5.1 // indirect
